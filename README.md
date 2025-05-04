@@ -39,7 +39,7 @@ Authorization: Bearer YOUR_API_KEY
 ## 📱 Example Request
 
 ```bash
-curl -X GET "https://api.wallaza.com/v1/wallpapers" \
+curl -X GET "https://api.wallaza.com/v1/" \
      -H "Authorization: Bearer YOUR_API_KEY" \
      -H "Content-Type: application/json"
 ```
