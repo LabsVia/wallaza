@@ -1,0 +1,111 @@
+{
+  "data": [
+    {
+      "id": "12345",
+      "title": "Mountain Landscape at Sunset",
+      "description": "Beautiful mountain view with sunset and orange sky",
+      "url": "https://api.wallaza.com/images/12345.jpg",
+      "thumbnail_url": "https://api.wallaza.com/thumbnails/12345.jpg",
+      "category": "Nature",
+      "tags": ["mountains", "sunset", "landscape", "sky"],
+      "resolution": "1920x1080",
+      "file_size": 1240000,
+      "downloads": 5420,
+      "favorites": 1235,
+      "author": {
+        "id": "3456",
+        "name": "NaturePhotos",
+        "profile_url": "https://wallaza.com/users/3456"
+      },
+      "created_at": "2023-01-15T10:30:00Z"
+    },
+    {
+      "id": "12346",
+      "title": "Coastal Waves at Dawn",
+      "description": "Serene ocean waves crashing on rocky shore at dawn",
+      "url": "https://api.wallaza.com/images/12346.jpg",
+      "thumbnail_url": "https://api.wallaza.com/thumbnails/12346.jpg",
+      "category": "Nature",
+      "tags": ["ocean", "waves", "coast", "dawn", "seascape"],
+      "resolution": "2560x1440",
+      "file_size": 2458000,
+      "downloads": 3872,
+      "favorites": 945,
+      "author": {
+        "id": "5678",
+        "name": "OceanViews",
+        "profile_url": "https://wallaza.com/users/5678"
+      },
+      "created_at": "2023-02-05T08:45:00Z"
+    },
+    {
+      "id": "12347",
+      "title": "Cityscape at Night",
+      "description": "Modern city skyline with illuminated buildings at night",
+      "url": "https://api.wallaza.com/images/12347.jpg",
+      "thumbnail_url": "https://api.wallaza.com/thumbnails/12347.jpg",
+      "category": "Urban",
+      "tags": ["city", "skyline", "night", "buildings", "lights"],
+      "resolution": "3840x2160",
+      "file_size": 4128000,
+      "downloads": 7651,
+      "favorites": 2134,
+      "author": {
+        "id": "7890",
+        "name": "UrbanScapes",
+        "profile_url": "https://wallaza.com/users/7890"
+      },
+      "created_at": "2023-01-28T22:15:00Z"
+    },
+    {
+      "id": "12348",
+      "title": "Autumn Forest Path",
+      "description": "Colorful autumn forest with fallen leaves on a winding path",
+      "url": "https://api.wallaza.com/images/12348.jpg",
+      "thumbnail_url": "https://api.wallaza.com/thumbnails/12348.jpg",
+      "category": "Nature",
+      "tags": ["forest", "autumn", "path", "leaves", "trees"],
+      "resolution": "2560x1600",
+      "file_size": 3217000,
+      "downloads": 4962,
+      "favorites": 1765,
+      "author": {
+        "id": "3456",
+        "name": "NaturePhotos",
+        "profile_url": "https://wallaza.com/users/3456"
+      },
+      "created_at": "2022-10-12T14:20:00Z"
+    },
+    {
+      "id": "12349",
+      "title": "Abstract Digital Art",
+      "description": "Vibrant abstract digital artwork with geometric patterns",
+      "url": "https://api.wallaza.com/images/12349.jpg",
+      "thumbnail_url": "https://api.wallaza.com/thumbnails/12349.jpg",
+      "category": "Abstract",
+      "tags": ["abstract", "digital art", "geometric", "colorful"],
+      "resolution": "1920x1200",
+      "file_size": 1854000,
+      "downloads": 3254,
+      "favorites": 987,
+      "author": {
+        "id": "9012",
+        "name": "DigitalCreations",
+        "profile_url": "https://wallaza.com/users/9012"
+      },
+      "created_at": "2023-03-01T11:10:00Z"
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "total_pages": 284,
+    "total_results": 5672,
+    "per_page": 20
+  },
+  "links": {
+    "first": "https://api.wallaza.com/v1/wallpapers?page=1",
+    "prev": null,
+    "next": "https://api.wallaza.com/v1/wallpapers?page=2",
+    "last": "https://api.wallaza.com/v1/wallpapers?page=284"
+  }
+} 

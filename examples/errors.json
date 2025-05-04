@@ -1,0 +1,63 @@
+{
+  "examples": [
+    {
+      "error": {
+        "code": "unauthorized",
+        "message": "No valid API key provided",
+        "status": 401
+      }
+    },
+    {
+      "error": {
+        "code": "invalid_request",
+        "message": "Missing required parameter: category",
+        "status": 400
+      }
+    },
+    {
+      "error": {
+        "code": "resource_not_found",
+        "message": "The requested wallpaper with ID 12345 could not be found",
+        "status": 404
+      }
+    },
+    {
+      "error": {
+        "code": "rate_limit_exceeded",
+        "message": "You have exceeded the rate limit of 1000 requests per hour",
+        "status": 429,
+        "additional_info": {
+          "limit": 1000,
+          "remaining": 0,
+          "reset_at": 1620000000
+        }
+      }
+    },
+    {
+      "error": {
+        "code": "validation_error",
+        "message": "Invalid resolution format. Must be in format WIDTHxHEIGHT",
+        "status": 400,
+        "additional_info": {
+          "field": "resolution",
+          "value": "1920-1080",
+          "expected_format": "WIDTHxHEIGHT (e.g. 1920x1080)"
+        }
+      }
+    },
+    {
+      "error": {
+        "code": "server_error",
+        "message": "An error occurred while processing your request",
+        "status": 500
+      }
+    },
+    {
+      "error": {
+        "code": "forbidden",
+        "message": "Your API key does not have permission to access this resource",
+        "status": 403
+      }
+    }
+  ]
+} 
