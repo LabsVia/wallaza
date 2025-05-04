@@ -4,11 +4,11 @@
 [![Documentation](https://img.shields.io/badge/Documentation-v1.0-blue)](https://www.wallaza.com/api-reference/)
 [![License](https://img.shields.io/badge/License-MIT-orange)](LICENSE)
 
-Wallaza API is a REST API that provides programmatic access to millions of wallpapers. This API allows you to easily access high-quality wallpapers in your applications.
+Wallaza API is a REST API that provides programmatic access to millions of [wallpapers](https://www.wallaza.com). This API allows you to easily access high-quality wallpapers in your applications.
 
 ## 🌟 Features
 
-- 📱 Access to millions of high-quality wallpapers
+- 📱 Access to millions of high-quality [wallpapers](https://www.wallaza.com)
 - 🔍 Search by keywords, categories, and colors
 - 🌈 Filter by resolution, aspect ratio, and more
 - 🔄 Comprehensive documentation for easy integration
@@ -54,7 +54,7 @@ Our API implements rate limiting to ensure fair usage:
 
 ## 📞 Support
 
-For questions or issues, please send an email to [support@wallaza.com](mailto:support@wallaza.com) or visit our website: [wallaza.com](https://www.wallaza.com).
+For questions or issues, please send an email to [info@wallaza.com](mailto:info@wallaza.com) or visit our wallpaper website: [wallaza.com](https://www.wallaza.com).
 
 ## 📜 License
 
@@ -62,7 +62,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**[🌐 Wallaza.com](https://www.wallaza.com)** | **[📚 API Reference](https://www.wallaza.com/api-reference/)** | **[💻 GitHub](https://github.com/wallaza/api)**
+**[🌐 Wallpaper Collection](https://www.wallaza.com)** | **[📚 API Reference](https://www.wallaza.com/api-reference/)** | **[💻 GitHub](https://github.com/wallaza/api)**
 
 ## Endpoints
 
@@ -72,7 +72,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 GET /wallpapers
 ```
 
-Retrieves a list of wallpapers with pagination. Returns 20 results per page by default.
+Retrieves a list of [wallpapers](https://www.wallaza.com) with pagination. Returns 20 results per page by default.
 
 #### Parameters
 
@@ -85,10 +85,10 @@ Retrieves a list of wallpapers with pagination. Returns 20 results per page by d
 ### Get Wallpaper
 
 ```
-GET /wallpapers/{id}
+GET /w/{id}
 ```
 
-Retrieves detailed information about a specific wallpaper.
+Retrieves detailed information about a specific [wallpaper](https://www.wallaza.com).
 
 ## Example Response
 
@@ -98,13 +98,13 @@ Retrieves detailed information about a specific wallpaper.
     {
       "id": "12345",
       "title": "Mountain Landscape",
-      "url": "https://wallaza.com/images/12345.jpg",
-      "thumbnail_url": "https://wallaza.com/thumbnails/12345.jpg",
+      "url": "https://www.wallaza.com/w/12345",
+      "thumbnail_url": "https://www.wallaza.com/uploads/thumbnails/12345.jpg",
       "category": "Nature",
       "resolution": "1920x1080",
       "file_size": 1240000,
       "downloads": 5420,
-      "created_at": "2023-01-15T10:30:00Z"
+      "created_at": "2025-01-15T10:30:00Z"
     }
   ],
   "meta": {
@@ -113,4 +113,8 @@ Retrieves detailed information about a specific wallpaper.
     "total_results": 230
   }
 }
-``` 
+```
+
+## Wallpaper Sources
+
+The Wallaza API provides access to a curated collection of wallpapers from [our main website](https://www.wallaza.com). Our collection includes various categories such as nature, abstract, minimalist, and more to suit different preferences and needs. 
